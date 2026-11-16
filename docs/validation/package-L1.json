@@ -1,0 +1,14 @@
+{
+  "diagnostics": [],
+  "results": [
+    {
+      "check": "L1",
+      "result": "pass"
+    }
+  ],
+  "target": {
+    "commit": "",
+    "path": "19660625-act-86/versions/9ezns809\\law.yaml",
+    "repository": "19660625-act-86/versions/9ezns809"
+  }
+}

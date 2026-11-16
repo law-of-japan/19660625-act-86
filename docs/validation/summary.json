@@ -1,0 +1,209 @@
+{
+  "checks": [
+    {
+      "name": "package-L0",
+      "exitCode": 0,
+      "args": [
+        "19660625-act-86/versions/9ezns809",
+        "--level",
+        "L0"
+      ],
+      "results": [
+        {
+          "check": "L0",
+          "result": "pass"
+        }
+      ],
+      "diagnostics": []
+    },
+    {
+      "name": "package-L1",
+      "exitCode": 0,
+      "args": [
+        "19660625-act-86/versions/9ezns809",
+        "--level",
+        "L1"
+      ],
+      "results": [
+        {
+          "check": "L1",
+          "result": "pass"
+        }
+      ],
+      "diagnostics": []
+    },
+    {
+      "name": "history-L3",
+      "exitCode": 0,
+      "args": [
+        "19660625-act-86",
+        "--level",
+        "L3"
+      ],
+      "results": [
+        {
+          "category": "historyStructure",
+          "check": "L3",
+          "result": "pass"
+        },
+        {
+          "category": "evidence",
+          "check": "L3",
+          "result": "pass"
+        }
+      ],
+      "diagnostics": []
+    },
+    {
+      "name": "rebuild",
+      "exitCode": 0,
+      "args": [
+        "19660625-act-86",
+        "--check",
+        "rebuild"
+      ],
+      "results": [
+        {
+          "check": "rebuild",
+          "result": "pass"
+        }
+      ],
+      "diagnostics": []
+    },
+    {
+      "name": "registry",
+      "exitCode": 0,
+      "args": [
+        "loj-registry",
+        "--check",
+        "registry",
+        "--registration-space",
+        "law-of-japan"
+      ],
+      "results": [
+        {
+          "check": "registry",
+          "result": "pass"
+        }
+      ],
+      "diagnostics": []
+    },
+    {
+      "name": "v7z88ch2ns-L3",
+      "exitCode": 0,
+      "args": [
+        "19660625-act-86/docs/related/v7z88ch2ns",
+        "--level",
+        "L3"
+      ],
+      "results": [
+        {
+          "category": "historyStructure",
+          "check": "L3",
+          "result": "pass"
+        },
+        {
+          "category": "evidence",
+          "check": "L3",
+          "result": "pass"
+        }
+      ],
+      "diagnostics": []
+    },
+    {
+      "name": "b8qyfdhkrr-L3",
+      "exitCode": 0,
+      "args": [
+        "19660625-act-86/docs/related/b8qyfdhkrr",
+        "--level",
+        "L3"
+      ],
+      "results": [
+        {
+          "category": "historyStructure",
+          "check": "L3",
+          "result": "pass"
+        },
+        {
+          "category": "evidence",
+          "check": "L3",
+          "result": "pass"
+        }
+      ],
+      "diagnostics": []
+    },
+    {
+      "name": "trr0f5ebab-L3",
+      "exitCode": 0,
+      "args": [
+        "19660625-act-86/docs/related/trr0f5ebab",
+        "--level",
+        "L3"
+      ],
+      "results": [
+        {
+          "category": "historyStructure",
+          "check": "L3",
+          "result": "pass"
+        },
+        {
+          "category": "evidence",
+          "check": "L3",
+          "result": "pass"
+        }
+      ],
+      "diagnostics": []
+    },
+    {
+      "name": "relations-L4",
+      "exitCode": 0,
+      "args": [
+        "--registry",
+        "loj-registry",
+        "--repository",
+        "19660625-act-86",
+        "--repository",
+        "19480720-law-178",
+        "--repository",
+        "19660625-act-86/docs/related/v7z88ch2ns",
+        "--repository",
+        "19660625-act-86/docs/related/b8qyfdhkrr",
+        "--repository",
+        "19660625-act-86/docs/related/trr0f5ebab",
+        "--level",
+        "L4",
+        "--registration-space",
+        "law-of-japan"
+      ],
+      "results": [
+        {
+          "category": "relationResolution",
+          "check": "L4",
+          "result": "pass"
+        },
+        {
+          "category": "relationConsistency",
+          "check": "L4",
+          "result": "pass"
+        },
+        {
+          "category": "timeConsistency",
+          "check": "L4",
+          "result": "pass"
+        },
+        {
+          "category": "displayConsistency",
+          "check": "L4",
+          "result": "pass"
+        }
+      ],
+      "diagnostics": []
+    }
+  ],
+  "sourceHashesMatch": true,
+  "legacyRefsUnchanged": true,
+  "holidayHeadUnchanged": true,
+  "supplementParagraphs": 6,
+  "binarySha256": "c3e90acd4d36f480c2ba0a343b0dc5d4e1c95e70db5d2ec7e87651d61181e382",
+  "spec": "02f273559d9d3c90345f457fb72dffb11ddeb1d2"
+}

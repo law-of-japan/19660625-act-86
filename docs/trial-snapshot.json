@@ -1,0 +1,24 @@
+{
+  "revision": "9ezns809",
+  "relatedRecords": {
+    "総理府設置法": "v7z88ch2ns",
+    "スポーツ振興法": "b8qyfdhkrr",
+    "老人福祉法": "trr0f5ebab"
+  },
+  "heads": {
+    "19660625-act-86": "4406c26b9c45e3e365890657a5863911d4bb1e01",
+    "19480720-law-178": "d29581854a768a35d3bc80d94031882b37f8bbce",
+    "loj-registry": "844fbd6f1901d6acec1d88f242e58ab5e10a92f6",
+    "loj-spec": "02f273559d9d3c90345f457fb72dffb11ddeb1d2",
+    "loj-validator": "cb0168da2bb6e9a5323409625e660bf4b7a077f5"
+  },
+  "legacyRefs": [
+    "4406c26b9c45e3e365890657a5863911d4bb1e01 refs/heads/main",
+    "4406c26b9c45e3e365890657a5863911d4bb1e01 refs/heads/trial/amending-act-20261116",
+    "26ccb4cdc7753096b711b48f00a689e747a8dbe2 refs/remotes/origin/19660625_86",
+    "4406c26b9c45e3e365890657a5863911d4bb1e01 refs/remotes/origin/HEAD",
+    "4406c26b9c45e3e365890657a5863911d4bb1e01 refs/remotes/origin/initialcommit",
+    "4406c26b9c45e3e365890657a5863911d4bb1e01 refs/remotes/origin/main",
+    "176f334bfea5700a96bb352e577ed65d9926a30f refs/remotes/origin/master"
+  ]
+}

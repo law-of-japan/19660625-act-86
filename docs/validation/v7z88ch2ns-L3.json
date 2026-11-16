@@ -1,0 +1,19 @@
+{
+  "diagnostics": [],
+  "results": [
+    {
+      "category": "historyStructure",
+      "check": "L3",
+      "result": "pass"
+    },
+    {
+      "category": "evidence",
+      "check": "L3",
+      "result": "pass"
+    }
+  ],
+  "target": {
+    "commit": "",
+    "repository": "19660625-act-86/docs/related/v7z88ch2ns"
+  }
+}

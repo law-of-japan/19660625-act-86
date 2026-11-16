@@ -1,0 +1,32 @@
+[
+  {
+    "file": "goshomei-1966-1.jpg",
+    "url": "https://www.digital.archives.go.jp/api/content/item/da12/C102172101300/iiif/112104984337.jp2/full/max/0/native.jpg",
+    "sha256": "0910dda0755b1d70c0e2d51fe132062b7c181b1c782dc8fd96aa70ea804f9914",
+    "viewed": true
+  },
+  {
+    "file": "goshomei-1966-2.jpg",
+    "url": "https://www.digital.archives.go.jp/api/content/item/da12/C102172101400/iiif/112204984338.jp2/full/max/0/native.jpg",
+    "sha256": "c4ecd326ca0e815d3af699fbcefc62f0175ecd6403d31787263e1479c4ac88c3",
+    "viewed": true
+  },
+  {
+    "file": "goshomei-1966-3.jpg",
+    "url": "https://www.digital.archives.go.jp/api/content/item/da12/C102172101500/iiif/112304984339.jp2/full/max/0/native.jpg",
+    "sha256": "e44cc173685b00b0058725b9a84ac9372aee79d46488246496a80062a17be06d",
+    "viewed": true
+  },
+  {
+    "file": "goshomei-1966-4.jpg",
+    "url": "https://www.digital.archives.go.jp/api/content/item/da12/C102172101600/iiif/112404984340.jp2/full/max/0/native.jpg",
+    "sha256": "94dde520f6bb4844b3572dd291f9954facd0175e0f1450b7dc193c267f9aa799",
+    "viewed": true
+  },
+  {
+    "file": "goshomei-1966-5.jpg",
+    "url": "https://www.digital.archives.go.jp/api/content/item/da12/C102172101700/iiif/112504984341.jp2/full/max/0/native.jpg",
+    "sha256": "22e4bab3a9e1edcfabd40e7da258ee642d5931f00f8a153a703997e09bffa931",
+    "viewed": true
+  }
+]
