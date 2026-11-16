@@ -1,0 +1,45 @@
+schemaVersion: loj-rebuild/v1alpha1
+record:
+  id: 19660625-act-86
+legacy:
+  repository: https://github.com/law-of-japan/19660625-act-86
+  frozenAt: 4406c26b9c45e3e365890657a5863911d4bb1e01
+sourceChecks:
+- source: src-goshomei-s41-86
+  glyphPreservation: preserved
+  evidence:
+  - source: src-goshomei-s41-86
+    locator: 1〜5画像
+  note: 全5画像を閲覧。5画像左は次の法律の公布文で対象外。3・4画像には重複があり、4画像右で附則第四・五項を補う。官報未取得のため御署名原本を使用（REB-05）。字体全照合未了。
+mappings:
+- commit: 26ccb4cdc7753096b711b48f00a689e747a8dbe2
+  revisions:
+  - 9ezns809
+  verification:
+    state: unverified
+    reason: 旧ブランチのcommitを列挙。全文・字体の完全対応照合は未了。
+- commit: cf2dd73d2fa88a908df34f1f57730485f8b7c24f
+  revisions:
+  - 9ezns809
+  verification:
+    state: unverified
+    reason: 旧ブランチのcommitを列挙。全文・字体の完全対応照合は未了。
+- commit: e4d89d1006387ad21321f45310a3cc03c4cf2e08
+  revisions:
+  - 9ezns809
+  verification:
+    state: unverified
+    reason: 旧ブランチのcommitを列挙。全文・字体の完全対応照合は未了。
+- commit: 176f334bfea5700a96bb352e577ed65d9926a30f
+  revisions:
+  - 9ezns809
+  verification:
+    state: unverified
+    reason: 旧ブランチのcommitを列挙。全文・字体の完全対応照合は未了。
+- commit: 4406c26b9c45e3e365890657a5863911d4bb1e01
+  revisions: []
+  verification:
+    state: unverified
+    reason: 旧ブランチのcommitを列挙。全文・字体の完全対応照合は未了。
+pending: []
+differences: []
