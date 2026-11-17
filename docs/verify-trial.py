@@ -31,7 +31,8 @@ for d in json.loads((repo/'docs/sources/downloads.json').read_text(encoding='utf
     assert hashlib.sha256((repo/'docs/sources'/d['file']).read_bytes()).hexdigest()==d['sha256']
 for line in snapshot['legacyRefs']:
     sha,ref=line.split(' ',1)
-    if '/trial/' in ref:continue
+    # The trial was promoted to main after the snapshot, so main and its remote/HEAD moved by design.
+    if '/trial/' in ref or ref in ('refs/heads/main','refs/remotes/origin/main','refs/remotes/origin/HEAD'):continue
     assert subprocess.check_output(['git','-C',str(repo),'rev-parse',ref],text=True).strip()==sha
 assert subprocess.check_output(['git','-C',str(root/'19480720-law-178'),'rev-parse','HEAD'],text=True).strip()==snapshot['heads']['19480720-law-178']
 supp=(v/'supplement.md').read_text(encoding='utf-8')
