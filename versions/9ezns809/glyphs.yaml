@@ -1,0 +1,44 @@
+schemaVersion: loj-glyphs/v1alpha1
+revision: 9ezns809
+notes:
+- id: g1
+  node: 19660625-act-86/main/paragraph/1/amendment/1/content/table/1/row/xtm3/cell/2
+  offset: 0
+  recorded: 政令で定める日
+  kind: sourceEdit
+  description: 印刷の「二月十一日」を線で消し、手書きで「政令で定める日」と訂正。手書きの字の字体は下書きの資料（衆議院の制定法律の本文）に従う（GLYPH-09）
+  evidence:
+  - source: src-goshomei-s41-86
+    locator: 2画像 本則 建国記念の日の項
+  - source: src-shugiin
+    locator: 本則
+  verification:
+    state: confirmed
+- id: g2
+  node: 19660625-act-86/supplement/original/paragraph/5
+  field: display
+  offset: 0
+  recorded: ５
+  kind: sourceEdit
+  description: 印刷の項の表示番号を線で消し、手書きで「5」と訂正。訂正前の番号は判読未確定。手書きの字の字体・字幅は下書きの資料（衆議院の制定法律の本文）に従う（GLYPH-09）
+  evidence:
+  - source: src-goshomei-s41-86
+    locator: 4画像 右頁 附則第五項の冒頭
+  - source: src-shugiin
+    locator: 附則第五項
+  verification:
+    state: confirmed
+- id: g3
+  node: 19660625-act-86/supplement/original/paragraph/6
+  field: display
+  offset: 0
+  recorded: ６
+  kind: sourceEdit
+  description: 印刷の項の表示番号を線で消し、手書きで「6」と訂正。訂正前の番号は判読未確定。手書きの字の字体・字幅は下書きの資料（衆議院の制定法律の本文）に従う（GLYPH-09）
+  evidence:
+  - source: src-goshomei-s41-86
+    locator: 4画像 右頁 附則第六項の冒頭
+  - source: src-shugiin
+    locator: 附則第六項
+  verification:
+    state: confirmed
