@@ -1,0 +1,14 @@
+name: Validate
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  law:
+    uses: law-of-japan/loj-validator/.github/workflows/validate-law.yml@7364055f8db21a9b4557a91746c5001bf10702fb
+    with:
+      validator-ref: 7364055f8db21a9b4557a91746c5001bf10702fb
+      change-base: ${{ github.event.pull_request.base.sha || github.event.before }}
